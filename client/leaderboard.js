@@ -1,4 +1,5 @@
 Meteor.subscribe('thePlayers');
+Meteor.subscribe('theConsole');
 
 Template.leaderboard.helpers({
   'player': function(){

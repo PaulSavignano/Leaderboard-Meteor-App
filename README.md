@@ -1,1 +1,1 @@
-# Leaderboard-Meteor-App
+# Meteor leaderboard app.

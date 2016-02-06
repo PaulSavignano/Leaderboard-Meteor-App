@@ -3,6 +3,7 @@ Meteor.publish('thePlayers', function() {
   return PlayersList.find({createdBy: currentUserId});
 });
 
+
 Meteor.methods({
   'insertPlayerData': function(playerNameVar, playerScoreVar) {
     var currentUserId = Meteor.userId();
